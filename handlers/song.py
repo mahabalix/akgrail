@@ -23,7 +23,7 @@ from yt_dlp.utils import (
 
 @Client.on_message(filters.command("song") & ~filters.edited)
 async def song(client, message):
-    cap = "**SONG LOADED IN KHOPCHA ](https://t.me/anthesm_chat_box) ...**"
+    cap = "**SONG LOADED IN KHOPCHA ](https://t.me/VAMPIRE_EMPIRE_OFFICIAL) ...**"
     url = message.text.split(None, 1)[1]
     rkp = await message.reply("**FIND SONG FROM KHCOPCHA ...**")
     if not url:
